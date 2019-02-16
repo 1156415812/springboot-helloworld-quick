@@ -18,13 +18,13 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "person")
 public class Person {
 
-    public String lastName;
-    public Integer age;
-    public boolean boss;
-    public Date birthday;
-    public Map<String,Object> maps;
-    public List<Object> lists;
-    public Dog dog;
+    private String lastName;
+    private Integer age;
+    private boolean boss;
+    private Date birthday;
+    private Map<String,Object> maps;
+    private List<Object> lists;
+    private Dog dog;
 
     @Override
     public String toString() {
