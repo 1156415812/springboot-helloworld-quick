@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+person:
+  lastName: hello
+  age: 18
+  boss: true
+  birthday: 2017/11/11
+  maps: {k1: value,k2: value2}
+  lists:
+    - s
+    - k
+    - r
+  dog:
+    name: uzi
+    age: 18
