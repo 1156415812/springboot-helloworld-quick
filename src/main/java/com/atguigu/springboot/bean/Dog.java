@@ -2,8 +2,9 @@ package com.atguigu.springboot.bean;
 
 public class Dog {
 
-    public String name;
-    public Integer age;
+    private String name;
+
+    private Integer age;
 
     @Override
     public String toString() {
