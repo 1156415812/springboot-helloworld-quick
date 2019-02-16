@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 /**
+ *
 * @ConfigurationProperties  告诉SpringBoot将配置文件中配置的每一个属性的值，映射到这个组件（类）中
  *                          通过配置文件给实体对象赋值
  *      prefix = "person"   配置文件中哪个下面的所有属性经行一一配置
@@ -19,11 +20,17 @@ import java.util.Map;
 public class Person {
 
     private String lastName;
+
     private Integer age;
+
     private boolean boss;
+
     private Date birthday;
+
     private Map<String,Object> maps;
+
     private List<Object> lists;
+
     private Dog dog;
 
     @Override
